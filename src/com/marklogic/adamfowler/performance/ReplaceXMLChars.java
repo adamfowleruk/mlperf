@@ -14,12 +14,12 @@ public class ReplaceXMLChars {
     try {
       File dir = new File(args[0]);
       File[] files = dir.listFiles(new FolderFilter());
-      String pattern = "[^" 
+      /*String pattern = "[^" 
           + "\u0001-\uD7FF" 
           + "\uE000-\uFFFD"
           + "\ud800\udc00-\udbff\udfff" 
           + "]+";
-      
+      */
       String entire;
       StringBuffer sb;
       BufferedReader r;

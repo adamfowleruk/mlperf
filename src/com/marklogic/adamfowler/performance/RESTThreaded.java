@@ -63,7 +63,7 @@ public class RESTThreaded {
       String uriBase = "/performance/restfast/";
       int loops = Integer.parseInt(args[3]);
       Rendezvous rv;
-      int choice;
+      //int choice;
       UploadWrapper wrapper;
       for (int i = 0;i < loops;i++) {
         rv = new Rendezvous(files.length);

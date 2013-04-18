@@ -3,3 +3,7 @@
 bin/*
 docs/0001 c*
 
+
+test.log
+
+*.log
